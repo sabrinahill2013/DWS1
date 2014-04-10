@@ -6,14 +6,28 @@ body {
 h1 {
 	background-color:darkolivegreen;
 	text-align:center;
+	font-family: 'Denk One', sans-serif;
+	text-shadow:2px 2px #FFF;
 }
 
 h2 {
 	background-color: rgba(192, 48, 0, 1);
+   	font: normal small-caps bold 20px/150% Arial, Helvetica, sans-serif;
+
 	}
 h3 {
 	background-color: rgb(120,119,70);
+	font: italic bold 16px/150% Arial, Helvetica, sans-serif;
+	letter-spacing:2px
+	
+
 	}
 p {
 	color: hsl(175, 27%, 8%);
+	font: italic normal 14px/150% Arial, Helvetica, sans-serif;
+
 }
+a:link {color:#000;}      /* unvisited link */
+a:visited {color:rgba(192, 48, 0, 1); }   /* visited link */
+a:hover {color:#FFF; font-style:italic}     /* mouse over link */
+a:active {color:#FFF;}    /* selected link */
