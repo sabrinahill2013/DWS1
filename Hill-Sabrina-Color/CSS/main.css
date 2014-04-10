@@ -1,0 +1,19 @@
+/*I got these colors from Kuler.com*/
+body {
+	background-color:#B4AF91;
+}
+
+h1 {
+	background-color:darkolivegreen;
+	text-align:center;
+}
+
+h2 {
+	background-color: rgba(192, 48, 0, 1);
+	}
+h3 {
+	background-color: rgb(120,119,70);
+	}
+p {
+	color: hsl(175, 27%, 8%);
+}
