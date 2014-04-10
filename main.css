@@ -1,6 +1,7 @@
 /*I got these colors from Kuler.com*/
 body {
 	background-color:#B4AF91;
+
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 h2 {
 	background-color: rgba(192, 48, 0, 1);
    	font: normal small-caps bold 20px/150% Arial, Helvetica, sans-serif;
-
+	text-align:center;
 	}
 h3 {
 	background-color: rgb(120,119,70);
@@ -31,3 +32,49 @@ a:link {color:#000;}      /* unvisited link */
 a:visited {color:rgba(192, 48, 0, 1); }   /* visited link */
 a:hover {color:#FFF; font-style:italic}     /* mouse over link */
 a:active {color:#FFF;}    /* selected link */
+
+ol{
+list-style-type:square;
+list-style-position: inside;
+text-align: center;
+display:block;
+
+}
+
+
+.intro 
+{
+border: 1px solid black;
+margin: 1em 1.5em 2em 4.5em;
+float:left;
+width:80%;
+height:100%;
+border-radius:25px;
+box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
+padding:10px;
+}
+
+.aboutthebreed
+{
+border: 1px solid black;
+float:left;
+width:80%;
+height:100%;
+margin:5%;
+border-radius:25px;
+box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
+padding:10px;
+}
+
+.moreinfo
+{
+border: 1px solid black;
+float:left;
+width:80%;
+height:100%;
+margin:5%;
+border-radius:25px;
+box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
+padding:10px;
+
+}
