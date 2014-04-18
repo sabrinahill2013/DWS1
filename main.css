@@ -1,8 +1,7 @@
 /*I got these colors from Kuler.com*/
 body {
-	background-color:#B4AF91;
 	margin: 0 auto;
-
+	background-image:url('http://i1353.photobucket.com/albums/q679/SabrinaHill2013/pattern_135_zps4e6888ac.gif');
 }
 
 h1 {
@@ -16,6 +15,10 @@ h2 {
 	background-color: rgba(192, 48, 0, 1);
    	font: normal small-caps bold 1.250em Arial, Helvetica, sans-serif;
 	text-align:center;
+	background-image:url('http://i1353.photobucket.com/albums/q679/SabrinaHill2013/1397804912_Dog_zpsd9c1bba8.png'), url('http://i1353.photobucket.com/albums/q679/SabrinaHill2013/1397804912_Dogcopy_zps69cda489.png');
+	background-repeat:no-repeat;
+	background-position:left center, right center;
+	padding:20px;
 	}
 h3 {
 	background-color: rgb(120,119,70);
@@ -53,6 +56,8 @@ height:100%;
 border-radius:25px;
 box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
 padding:10px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffcc), color-stop(42%,#827339)); /* Chrome,Safari4+ */
+
 }
 
 .column1of2
@@ -65,6 +70,8 @@ margin:5%;
 border-radius:25px;
 box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
 padding:10px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffcc), color-stop(42%,#827339)); /* Chrome,Safari4+ */
+
 
 }
 .column2of2
@@ -77,17 +84,23 @@ margin:5% 14% 0% -100%;
 border-radius:25px;
 box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
 padding:10px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffcc), color-stop(42%,#827339)); /* Chrome,Safari4+ */
+
 }
 
 .moreinfo
 {
 border: 1px solid black;
 float:left;
-width:80%;
+width:70%;
 height:100%;
 margin:5%;
 border-radius:25px;
 box-shadow: 10px 20px 50px rgba(192, 48, 0, 1);
 padding:10px;
+background-image:url('http://i1353.photobucket.com/albums/q679/SabrinaHill2013/1397806454_LocationHTTP_zpsc91e4be4.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffcc), color-stop(42%,#827339)) ; /* Chrome,Safari4+ */;
+background-position:left center;
+background-repeat:no-repeat;
+padding:20px 50px 10px 150px;
 
 }
